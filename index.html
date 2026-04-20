@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Examination Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🎓 Exam Registration</h2>
+
+    <div class="input-group">
+        <input type="text" id="name" required>
+        <label>Full Name</label>
+        <div id="nameMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="email" id="email" required>
+        <label>Email</label>
+        <div id="emailMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="mobile" required>
+        <label>Mobile Number</label>
+        <div id="mobileMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="roll" required>
+        <label>Roll Number</label>
+        <div id="rollMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="date" id="date" required>
+        <div id="dateMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="password" id="password" required>
+        <label>Password</label>
+        <div id="passwordMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="subject" required>
+        <label>Subject Code</label>
+        <div id="subjectMsg"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="file" id="file" required>
+        <div id="fileMsg"></div>
+    </div>
+
+    <button id="submitBtn" disabled>Submit Form</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
